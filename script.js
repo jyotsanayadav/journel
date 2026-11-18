@@ -26,6 +26,7 @@ const articles = {
     date: "09 NOVEMBER 2026",
     title: "A few books worth checking out",
     paragraphs: [
+      "Let me be honest first: if you were to look at my bookshelf, you'd find that almost 90% of it is filled with rom-coms and contemporary fiction. But there are a few books that I genuinely think are worth checking out.",
       "1. How to Win Friends and Influence People",
       "If you are about to start college, I would especially recommend this one. I have read this book four or five times now. Every time I read it again, I notice something I missed before.",
       "This book suggests that criticism only makes people defensive, so it is better to avoid complaining and to give honest appreciation when you truly mean it. It also says that the easiest way to connect with someone is to talk about the things they care about.",
