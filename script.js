@@ -40,34 +40,7 @@ const articles = {
       "5. The Power of Your Subconscious Mind",
       "The Power of Your Subconscious Mind taught me that the thoughts I repeat to myself slowly become my beliefs, and my beliefs shape my actions. It made me more careful about how I talk to myself, especially on bad days."
     ]
-  },
-   "article-four": {
-    date: "18 JANUARY 2026",
-    title: "Love",
-    paragraphs: [
-"Is it the butterflies felt on seeing someone? Is it the little smile that appears when his name lights up on the phone? Is it looking forward to his messages, wanting to tell him every little thing about the day, or wishing to spend just a little more time with him?",
-
-"Maybe that's how it begins.",
-
-"Someone catches attention. Conversations become longer, messages become something to look forward to, and slowly, he becomes a part of everyday life.",
-
-"His presence becomes a habit. A missed message feels unusual. A day without talking feels incomplete. ",
-
-"Sometimes, the excitement of getting to know someone gets mistaken for something deeper. Sometimes, the comfort of having someone around feels so special that it becomes difficult to imagine a day without them.",
-
-"And then comes a breakup.",
-
-"Suddenly, there are no messages to wait for, no calls to look forward to, no one to share the little details of the day with. The absence feels strange. There is an urge to go back, to talk again, to feel that familiar comfort.",
-
-"Sometimes, what is missed is not the person but the routine built around them. The conversations, the attention, and the feeling of having someone.",
-
-"Time passes. Life slowly finds its rhythm again. One day, there is no curiosity about where he is, what he is doing, or whether he remembers. His absence no longer feels like something that needs to be filled.",
-
-"And perhaps that's when the difference becomes clearer.",
-
-"Maybe it was attraction. Maybe it was attachment. Maybe it was simply the excitement of having someone new become a part of everyday life.",
-      ]
-   }
+  }
 };
 
 const modal = document.getElementById("article-modal");
