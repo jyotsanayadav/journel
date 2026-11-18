@@ -49,9 +49,9 @@ const articles = {
 
 "Maybe that's how it begins.",
 
-"Someone catches attention. His smile, the way he talks, the little things he does. Conversations become longer, messages become something to look forward to, and slowly, he becomes a part of everyday life. His good morning texts, calls, little updates about the day, and the comfort of knowing someone is there start becoming familiar.",
+"Someone catches attention. His smile, the way he talks, the little things he does. Conversations become longer, messages become something to look forward to, and slowly, he becomes a part of everyday life. His good morning texts, calls, little updates about the day....",
 
-"Before long, his presence becomes a habit. A missed message feels unusual. A day without talking feels incomplete. ",
+"His presence becomes a habit. A missed message feels unusual. A day without talking feels incomplete. ",
 
 "Sometimes, the excitement of getting to know someone gets mistaken for something deeper. Sometimes, the comfort of having someone around feels so special that it becomes difficult to imagine a day without them.",
 
