@@ -40,6 +40,14 @@ const articles = {
       "5. The Power of Your Subconscious Mind",
       "The Power of Your Subconscious Mind taught me that the thoughts I repeat to myself slowly become my beliefs, and my beliefs shape my actions. It made me more careful about how I talk to myself, especially on bad days."
     ]
+  },
+  "article-four": {
+    date: "04 APRIL 2026",
+    title: "The People We Grow Up With",
+    paragraphs: [
+      "I've often thought about how different I might have been if I hadn't grown up with brothers. Would I still love watching matches? Would I have become an Avengers fan? Would I know how to play chess, or even solve a Rubik's cube? Would I have ever learnt to roller-skate?",
+      "I don't think I would have loved any of these things if it weren't for them"
+    ]
   }
 };
 
