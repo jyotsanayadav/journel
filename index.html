@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -144,6 +144,77 @@
       <footer><span>© 2026 JYOTSANA YADAV</span><span>MADE WITH CURIOSITY &amp; A LITTLE COFFEE.</span><a href="#home">BACK TO TOP ↑</a></footer>
     </section>
   </main>
+  <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jyotsana Yadav — B.Tech CSE student writing about AI/ML, code and learning in public. Articles, blogs, thoughts and projects.">
+  <title>Jyotsana Yadav — Journal </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="writing.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home"><span class="brand-mark">✳</span><span>jyotsana.journal</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#writing">Writing</a>
+      <a class="nav-contact" href="#contact">Let's talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-meta"><span>✦ &nbsp; WRITING &amp; BUILDING IN PUBLIC</span><span>EST. 2026</span></div>
+      <div class="hero-copy">
+        <p class="hello">Hi, I'm</p>
+        <h1>Jyotsana<span>.</span></h1>
+      </div>
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <div class="hero-cta">
+        <a class="cta-big" href="articles.html"><span>Read my writing</span><i>↗</i></a>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Topics I write about">
+      <div class="ticker-track">
+        <span>ARTICLES</span><b>✦</b><span>BLOGS</span><b>✦</b><span>THOUGHTS</span><b>✦</b>
+        <span>ARTICLES</span><b>✦</b><span>BLOGS</span><b>✦</b><span>THOUGHTS</span><b>✦</b>
+      </div>
+    </div>
+
+    <section class="writing section-pad" id="writing">
+      <p class="eyebrow">LATEST WRITING</p>
+      <div class="section-heading">
+        <h2>Notes, essays &amp; <em>thoughts.</em></h2>
+        <a class="all-link" href="articles.html">See all posts ↗</a>
+      </div>
+      <div class="post-list" id="latest-posts"></div>
+    </section>
+
+
+    <section class="contact section-pad" id="contact">
+      <p class="eyebrow"></p>
+      <a class="contact-button" href="mailto:jyotsanayadav2801@gmail.com">Say hello <span>↗</span></a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/jyotsana-yadav-7b5b51440/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a href="mailto:jyotsanayadav2801@gmail.com">Email ↗</a>
+      </div>
+      <footer><span>© 2026 JYOTSANA YADAV</span><span>MADE WITH CURIOSITY &amp; A LITTLE COFFEE.</span><a href="#home">BACK TO TOP ↑</a></footer>
+    </section>
+  </main>
+
+  <script src="posts.js"></script>
+  <script>
+    document.getElementById("latest-posts").innerHTML = sortedPosts().slice(0, 4).map(postCard).join("");
+  </script>
   <script src="script.js"></script>
 </body>
 </html>
