@@ -3,32 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jyotsana Yadav — B.Tech CSE student writing about AI/ML, code and learning in public. Articles, blogs, thoughts and projects.">
-  <title>Jyotsana Yadav — Journal </title>
+  <meta name="description" content="Articles by Jyotsana Yadav on football, learning DSA and favourite books.">
+  <title>Articles — Jyotsana Yadav</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="writing.css">
 </head>
-<body>
+<body class="articles-page">
   <header class="site-header">
-    </nav>
+    <a class="brand" href="index.html"><span class="brand-mark">✳</span><span>jyotsana.journal</span></a>
   </header>
 
   <main>
-    <section class="hero" id="home">
-      <div class="hero-meta"><span>EST. 2026</span></div>
-      <div class="hero-copy">
-        <p class="hello">Jyotsana</p>
-        <h1>Journal<span></span></h1>
+    <section class="writing articles-hero section-pad" id="writing">
+      <p class="eyebrow">NOTES FROM THE MARGINS</p>
+      <div class="section-heading">
+        <h2>The <em>Reading Room</em></h2>
       </div>
-      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-      <div class="hero-cta">
-        <a class="cta-big" href="articles.html"><span>Beyond The Code....</span><i>↗</i></a>
+      <div class="article-list">
+        <article class="article-row">
+          <div class="article-date">09 NOVEMBER 2026 <span></span></div>
+          <div class="article-main"><h3>A few books worth checking out</h3><button class="read-button" data-article="article-three"> Explore the full piece↗</button></div>
+          <span class="article-arrow">↗</span>
+        </article>
+           <article class="article-row">
+          <div class="article-date">28 SEPTEMBER 2026 <span></span></div>
+          <div class="article-main"><h3>Maa Durga: The Power That Lives Within Us</h3><button class="read-button" data-article="article-five"> Explore the full piece↗</button></div>
+          <span class="article-arrow">↗</span>
+        </article>
+        <article class="article-row">
+          <div class="article-date">21 JULY 2026 <span></span></div>
+          <div class="article-main"><h3>Sleepless nights watching the beautiful game</h3><button class="read-button" data-article="article-one"> Explore the full piece↗</button></div>
+          <span class="article-arrow">↗</span>
+        </article>
+        <article class="article-row">
+          <div class="article-date">30 JUNE 2026 <span></span></div>
+          <div class="article-main"><h3>From Memorizing Code to Solving Problems</h3><button class="read-button" data-article="article-two"> Explore the full piece↗</button></div>
+          <span class="article-arrow">↗</span>
+        </article>
+        <article class="article-row">
+          <div class="article-date">04 APRIL 2026 <span></span></div>
+          <div class="article-main"><h3>The People We Grow Up With</h3><button class="read-button" data-article="article-four"> Explore the full piece↗</button></div>
+          <span class="article-arrow">↗</span>
+        </article>
       </div>
+      <a class="text-link back-home" href="index.html">← Back</a>
     </section>
+  </main>
 
+
+  <div class="modal" id="article-modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" aria-label="Close article">×</button>
+      <p class="eyebrow" id="modal-date"></p>
+      <h2 id="modal-title"></h2>
+      <div class="modal-content" id="modal-content"></div>
+    </article>
+  </div>
+  
     <div class="ticker" aria-label="Topics I write about">
       <div class="ticker-track">
         <span>ARTICLES</span><b>✦</b><span>MUSINGS</span><b>✦</b><span>CHRONICLES</span><b>✦</b>
@@ -43,12 +77,7 @@
       <p class="eyebrow"></p>
       <footer><span>© 2026 JYOTSANA YADAV</span><span>MADE WITH A LITTLE COFFEE.</span></footer>
     </section>
-  </main>
-
-  <script src="posts.js"></script>
-  <script>
-    document.getElementById("latest-posts").innerHTML = sortedPosts().slice(0, 4).map(postCard).join("");
-  </script>
   <script src="script.js"></script>
 </body>
 </html>
+
