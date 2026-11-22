@@ -48,6 +48,16 @@ const articles = {
       "I've often thought about how different I might have been if I hadn't grown up with them. Would I have become an Avengers fan? Would I still love watching matches? Would I know how to play chess, or even solve a Rubik's cube? Would I have ever learnt to roller-skate?",
       "I don't think I would have loved any of these things if it weren't for them. Most of them seemed incredibly boring to me at first. But I suppose that's how the people we grow up with shape us. A little bit of their interests find their way into our lives..."
     ]
+  },
+  "article-five": {
+    date: "28 SEPTEMBER 2026",
+    title: "Maa Durga: The Power That Lives Within Us",
+    paragraphs: [
+     "Every form of God is beautiful in its own way, and I pray to many of them. Still, Maa Durga has a special place in my heart. When I pray to her, I feel a quiet strength settle in. ",
+      "What I find most beautiful about her is the balance she holds. She is fierce, yet loving. Powerful, yet gentle. Fearless, yet deeply peaceful. Her form teaches us that real strength has nothing to do with being harsh. It's about standing up for what is right while keeping a heart full of compassion.",
+      "Even her appearance is full of meaning. Her ten arms show her limitless power to protect. The weapons she carries stand for the destruction of ignorance, negativity, and evil. Her lion is courage and confidence. And her calm face reminds us that even in the hardest moments, we can stay steady and at peace.",
+      "Jai Mata Di! ❤️"    
+    ]
   }
 };
 
