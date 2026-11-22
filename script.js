@@ -45,8 +45,8 @@ const articles = {
     date: "04 APRIL 2026",
     title: "The People We Grow Up With",
     paragraphs: [
-      "I've often thought about how different I might have been if I hadn't grown up with brothers. Would I still love watching matches? Would I have become an Avengers fan? Would I know how to play chess, or even solve a Rubik's cube? Would I have ever learnt to roller-skate?",
-      "I don't think I would have loved any of these things if it weren't for them"
+      "I've often thought about how different I might have been if I hadn't grown up with them. Would I have become an Avengers fan? Would I still love watching matches? Would I know how to play chess, or even solve a Rubik's cube? Would I have ever learnt to roller-skate?",
+      "I don't think I would have loved any of these things if it weren't for them. Most of them seemed incredibly boring to me at first. But I suppose that's how the people we grow up with shape us. A little bit of their interests find their way into our lives..."
     ]
   }
 };
